@@ -26,7 +26,6 @@ void assignByCgpa();
 void displayDorms();
 void summary();
 void menu();
-void about();
 
 int main(){
 	
@@ -650,27 +649,6 @@ void summary(){
 		getch();
 	system("cls");
 }
-
-void about(){
-	
-	    cout << "   DEPARTMENT OF COMPUTER SCIENCE " << endl << endl;
-		cout << "   COLLEGUE OF COMPUTING " << endl << endl;
-		cout << "   GROUP :- 4" << endl << endl;
-		cout << "    ------------------------------------------" << endl;
-		cout << "   | No. |  Name               |    Id       |" << endl;
-		cout << "   |------------------------------------------" << endl;
-		cout << "   | 1   | YOHANAN   TAREKEGN  |  3919/16    |" << endl;
-		cout << "   | 2   | BEREDA    NEGESA    |  1447/16    |" << endl;
-		cout << "   | 3   | KALKIDAN  WUDINEH   |  0501/15    |" << endl;
-		cout << "   | 4   | SAMUEL    MEKONNEN  |  3403/16    |" << endl;
-		cout << "   | 5   | DEBELA    GIRMA     |  1790/16    |" << endl;
-		cout << "   | 6   | HANNA     TEKALIGN  |  2308/16    |" << endl;
-		cout << "    -------------------------------------------" << endl << endl;
-		cout << "   Press any key to continue !!" << endl;
-	getch();
-	system("cls");
-}
-
 void menu(){
 	int choice;
     do {
@@ -737,3 +715,4 @@ void menu(){
         }
     } while (choice != 11);
 }
+
